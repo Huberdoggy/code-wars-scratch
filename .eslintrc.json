@@ -31,8 +31,9 @@
     "no-use-before-define": "warn",
     "no-restricted-syntax": ["off", "ForOfStatement", "ForInStatement"],
     "no-fallthrough": "off",
-    "guard-for-in": "warn",
+    "guard-for-in": "off",
     "dot-notation": "warn",
+    "no-return-assign": "warn",
     "consistent-return": "off",
     /*JSX */
     "import/prefer-default-export": "off",
