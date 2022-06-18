@@ -20,10 +20,10 @@ function spinWords(string) {
     return string;
   }
 
-  return sentence;
+  return sentence.trim();
 }
 
-console.log(spinWords('Hey fellow warriors'));
+console.log(spinWords('  Hey fellow warriors   '));
 console.log(spinWords('This is a test'));
 console.log(spinWords('This is another test'));
 console.log(spinWords('Huber'));
