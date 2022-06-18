@@ -1,5 +1,6 @@
 /node_modules
 /.vscode
 /.clang-format
-# custom named executable files from my CPP source
-/**/huber
+
+# Since I'm not usinga a dedicated build folder for the CPP executables I'm forcing them to use my own defined extension - Elf, to ignore en masse
+/**/*.elf
