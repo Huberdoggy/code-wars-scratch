@@ -7,9 +7,7 @@
 
 // 	   Examples 1705 -- > 18 1900 -- > 19 1601 -- > 17 2000 -- > 20
 
-#include <cmath>
-#include <iostream>
-#include <vector>
+#include "/home/huberdoggy/c++/cpp20-template/headers/quick_headers.h"
 
 using namespace std;
 

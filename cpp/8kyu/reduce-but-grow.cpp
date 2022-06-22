@@ -3,8 +3,7 @@
 
 //     [ 1, 2, 3, 4 ] = > 1 * 2 * 3 * 4 = 24
 
-#include <iostream>
-#include <vector>
+#include "/home/huberdoggy/c++/cpp20-template/headers/quick_headers.h"
 
 using namespace std;
 
