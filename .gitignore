@@ -1,6 +1,11 @@
+# General
 /node_modules
 /.vscode
-/.clang-format
 
+# C++
 # Since I'm not usinga a dedicated build folder for the CPP executables I'm forcing them to use my own defined extension - Elf, to ignore en masse
 /**/*.elf
+/.clang-format
+
+# Python
+/**/formatter_test.py
