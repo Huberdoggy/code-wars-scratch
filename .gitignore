@@ -9,3 +9,9 @@
 
 # Python
 /**/formatter_test.py
+
+# JS
+/package-lock.json
+/package.json
+/javascript
+/.eslintrc
