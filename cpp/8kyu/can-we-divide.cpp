@@ -18,8 +18,6 @@
 
 #include "/home/huberdoggy/c++/include/quick_headers.h"
 
-using namespace std;
-
 bool isDivideBy(int number, int a, int b)
 {
 	if (number % a == 0 && number % b == 0) {
@@ -32,14 +30,15 @@ int main()
 {
 	int num1{}, num2{}, num3{};
 
-	cout << "Enter a number: ";
-	cin >> num1;
-	cout << "\nAnd another number: ";
-	cin >> num2;
-	cout << "\nNow one more: ";
-	cin >> num3;
+	std::cout << "Enter a number: ";
+	std::cin >> num1;
+	std::cout << "\nAnd another number: ";
+	std::cin >> num2;
+	std::cout << "\nNow one more: ";
+	std::cin >> num3;
 
 	bool result = isDivideBy(num1, num2, num3);
-	cout << "\n\n" << result;
+	std::cout << std::boolalpha;
+	std::cout << "\n\n" << result << '\n';
 	return 0;
 }

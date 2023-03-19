@@ -17,9 +17,8 @@ Hint: Don't forget to check for bad values like null/undefined
 */
 
 #include "/home/huberdoggy/c++/include/quick_headers.h"
-using namespace std;
 
-int count_sheep(vector<bool> arr)
+int count_sheep(std::vector<bool> arr)
 {
 	int truthy = 0;
 
@@ -37,9 +36,10 @@ int count_sheep(vector<bool> arr)
 int main()
 {
 
-	vector<bool> bArr{true, true,  true, false, true,  true,  true,	 true,
-			  true, false, true, false, true,  false, false, true,
-			  true, true,  true, true,  false, false, true,	 true};
+	std::vector<bool> bArr{true, true,  true,  false, true, true,
+			       true, true,  true,  false, true, false,
+			       true, false, false, true,  true, true,
+			       true, true,  false, false, true, true};
 
 	int result = count_sheep(bArr);
 	printf("\nNumber of sheep in the vector: %d", result);

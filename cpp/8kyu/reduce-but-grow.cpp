@@ -5,9 +5,7 @@
 
 #include "/home/huberdoggy/c++/include/quick_headers.h"
 
-using namespace std;
-
-int grow(vector<int> nums)
+int grow(std::vector<int> nums)
 {
 	int result{};
 
@@ -15,12 +13,12 @@ int grow(vector<int> nums)
 
 		i == 0 ? result = nums[i] : result *= nums[i];
 	}
-	cout << "Result is " << result;
+	std::cout << "Result is " << result;
 	return 0;
 }
 
 int main()
 {
-	vector<int> multVector{2, 3, 5, 2};
+	std::vector<int> multVector{2, 3, 5, 2};
 	grow(multVector);
 }

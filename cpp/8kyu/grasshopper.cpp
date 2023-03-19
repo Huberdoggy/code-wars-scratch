@@ -7,9 +7,8 @@
 //     case return name equals owner 'Hello boss' otherwise 'Hello guest'
 
 #include "/home/huberdoggy/c++/include/quick_headers.h"
-using namespace std;
 
-string greet(const string name, const string owner)
+std::string greet(const std::string name, const std::string owner)
 {
 	return name == owner ? "Hello boss" : "Hello guest";
 }
@@ -17,14 +16,14 @@ string greet(const string name, const string owner)
 int main()
 {
 
-	string name, owner;
+	std::string name, owner;
 
-	cout << "\nPlease enter your name: ";
-	cin >> name;
-	cout << "\n\nPlease enter the owner: ";
-	cin >> owner;
+	std::cout << "\nPlease enter your name: ";
+	std::cin >> name;
+	std::cout << "\n\nPlease enter the owner: ";
+	std::cin >> owner;
 
-	cout << "\n" << greet(name, owner);
+	std::cout << "\n" << greet(name, owner);
 
 	return 0;
 }

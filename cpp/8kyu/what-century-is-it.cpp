@@ -9,8 +9,6 @@
 
 #include "/home/huberdoggy/c++/include/quick_headers.h"
 
-using namespace std;
-
 int centuryFromYear(int year)
 {
 	int resultYear{};
@@ -24,7 +22,7 @@ int centuryFromYear(int year)
 
 int main()
 {
-	vector<int> centuries{1601, 1705, 1900, 2000};
+	std::vector<int> centuries{1601, 1705, 1900, 2000};
 
 	for (int x : centuries)
 
