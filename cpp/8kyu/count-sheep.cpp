@@ -16,7 +16,7 @@ The correct answer would be 17.
 Hint: Don't forget to check for bad values like null/undefined
 */
 
-#include "/home/huberdoggy/c++/include/quick_headers.h"
+#include "/home/huberdoggy/c++/include/common.h"
 
 int count_sheep(std::vector<bool> arr)
 {

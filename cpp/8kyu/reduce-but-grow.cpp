@@ -3,7 +3,7 @@
 
 //     [ 1, 2, 3, 4 ] = > 1 * 2 * 3 * 4 = 24
 
-#include "/home/huberdoggy/c++/include/quick_headers.h"
+#include "/home/huberdoggy/c++/include/common.h"
 
 int grow(std::vector<int> nums)
 {

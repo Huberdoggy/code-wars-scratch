@@ -7,7 +7,7 @@
 
 // 	   Examples 1705 -- > 18 1900 -- > 19 1601 -- > 17 2000 -- > 20
 
-#include "/home/huberdoggy/c++/include/quick_headers.h"
+#include "/home/huberdoggy/c++/include/common.h"
 
 int centuryFromYear(int year)
 {
@@ -28,5 +28,6 @@ int main()
 
 		printf("\nYear %d is in the %dth century.", x,
 		       centuryFromYear(x));
+	std::cout << std::endl;
 	return 0;
 }
