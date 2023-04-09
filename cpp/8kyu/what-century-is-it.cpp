@@ -7,7 +7,7 @@
 
 // 	   Examples 1705 -- > 18 1900 -- > 19 1601 -- > 17 2000 -- > 20
 
-#include "/home/huberdoggy/c++/include/common.h"
+#include "common_nix.h"
 
 int centuryFromYear(int year)
 {

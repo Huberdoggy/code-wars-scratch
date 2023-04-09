@@ -16,7 +16,7 @@
 // 	->true(15, -5, 3)
 // 	->true
 
-#include "/home/huberdoggy/c++/include/common.h"
+#include "common_nix.h"
 
 bool isDivideBy(int number, int a, int b)
 {

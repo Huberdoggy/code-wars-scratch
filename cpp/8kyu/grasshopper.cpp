@@ -6,7 +6,7 @@
 
 //     case return name equals owner 'Hello boss' otherwise 'Hello guest'
 
-#include "/home/huberdoggy/c++/include/common.h"
+#include "common_nix.h"
 
 std::string greet(const std::string name, const std::string owner)
 {

@@ -8,7 +8,7 @@
 	"5 years old".The first character in the string is always a number.
     */
 
-#include "/home/huberdoggy/c++/include/common.h"
+#include "common_nix.h"
 
 int get_age(const std::string &she_said)
 {

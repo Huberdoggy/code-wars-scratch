@@ -5,7 +5,7 @@ valid representation of an integral number. Examples "1234" -- > 1234 "605" -- >
 605 "1405" -- > 1405 "-7" -- > -7
 */
 
-#include "/home/huberdoggy/c++/include/common.h"
+#include "common_nix.h"
 
 int string_to_number(const std::string &s)
 {
